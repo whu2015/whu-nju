@@ -1,0 +1,351 @@
+*Vertices 124
+1	"affymetrix" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+2	"biomodels" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+3	"bioportal" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+4	"chembl" x_fact 8 y_fact 8 ic Green bc Green font Helvetica
+5	"clinicaltrials" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+6	"ctd" x_fact 8 y_fact 8 ic Green bc Green font Helvetica
+7	"dbsnp" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+8	"drugbank" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+9	"genage" x_fact 4 y_fact 4 ic Green bc Green font Helvetica
+10	"gendr" x_fact 4 y_fact 4 ic Green bc Green font Helvetica
+11	"goa" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+12	"hgnc" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+13	"homologene" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+14	"interpro" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+15	"iproclass" x_fact 9 y_fact 9 ic Green bc Green font Helvetica
+16	"irefindex" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+17	"kegg" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+18	"linkedspl" x_fact 5 y_fact 5 ic Green bc Green font Helvetica
+19	"lsr" x_fact 4 y_fact 4 ic Green bc Green font Helvetica
+20	"mesh" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+21	"mgi" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+22	"ncbigene" x_fact 8 y_fact 8 ic Green bc Green font Helvetica
+23	"ndc" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+24	"omim" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+25	"orphanet" x_fact 5 y_fact 5 ic Green bc Green font Helvetica
+26	"pathwaycommons" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+27	"pharmgkb" x_fact 8 y_fact 8 ic Green bc Green font Helvetica
+28	"pubmed" x_fact 9 y_fact 9 ic Green bc Green font Helvetica
+29	"reactome" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+30	"sabiork" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+31	"sgd" x_fact 6 y_fact 6 ic Green bc Green font Helvetica
+32	"sider" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+33	"taxonomy" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+34	"wikipathways" x_fact 5 y_fact 5 ic Green bc Green font Helvetica
+35	"wormbase" x_fact 7 y_fact 7 ic Green bc Green font Helvetica
+36	"3dmet" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+37	"ahfs" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+38	"alfred" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+39	"atc" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+40	"bindingdb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+41	"biodbcore" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+42	"biosystems" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+43	"blocks" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+44	"cas" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+45	"cath" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+46	"cazy" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+47	"ccd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+48	"ccds" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+49	"ccsd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+50	"chebi" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+51	"chemspider" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+52	"come" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+53	"dailymed" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+54	"datahub" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+55	"do" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+56	"dpd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+57	"ec" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+58	"ensembl" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+59	"eom" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+60	"flybase" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+61	"genatlas" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+62	"genbank" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+63	"genecards" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+64	"gi" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+65	"glycomedb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+66	"go" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+67	"gtp" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+68	"hp" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+69	"hprd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+70	"huge" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+71	"humancyc" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+72	"icd10" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+73	"icd9" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+74	"icdo" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+75	"img" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+76	"imgt" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+77	"inchi" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+78	"ipi" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+79	"issn" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+80	"iuphar" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+81	"jcggdb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+82	"knapsack" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+83	"ligandbox" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+84	"lipidbank" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+85	"lipidmaps" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+86	"meddra" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+87	"medlineplus" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+88	"merops" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+89	"metacyc" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+90	"mirbase" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+91	"miriam" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+92	"modbase" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+93	"msd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+94	"mutdb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+95	"mwsh" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+96	"ndfrt" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+97	"nikkaji" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+98	"obi" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+99	"ordr" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+100	"pandit" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+101	"pdb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+102	"pfam" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+103	"pirsf" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+104	"priam" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+105	"prosite" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+106	"pubchem" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+107	"refseq" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+108	"rgd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+109	"scop" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+110	"snomedct" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+111	"tair" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+112	"tcdb" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+113	"trembl" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+114	"ttd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+115	"ucsc" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+116	"umbbd" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+117	"umls" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+118	"unigene" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+119	"uniparc" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+120	"uniprot" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+121	"unists" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+122	"vega" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+123	"wikipedia" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+124	"zfin" box x_fact 3 y_fact 3 ic Tan bc Tan font Helvetica
+*Arcs
+31	57	3.0
+31	64	3.0
+31	107	3.0
+31	22	3.0
+25	29	1.0
+25	120	1.0
+25	20	1.0
+25	98	1.0
+25	58	3.0
+25	61	1.0
+25	12	1.0
+25	80	1.0
+25	86	1.0
+25	24	3.0
+25	110	1.0
+25	72	3.0
+25	117	1.0
+21	58	4.0
+21	62	4.0
+21	120	3.0
+21	122	4.0
+21	107	4.0
+21	113	3.0
+21	28	3.0
+19	3	1.0
+19	41	1.0
+19	91	1.0
+14	100	3.0
+14	101	4.0
+14	105	3.0
+14	109	3.0
+14	88	1.0
+14	93	3.0
+14	104	3.0
+14	52	1.0
+14	57	3.0
+14	28	3.0
+14	43	3.0
+14	45	3.0
+14	46	1.0
+14	80	1.0
+14	17	3.0
+14	89	3.0
+13	33	4.0
+13	22	4.0
+13	64	4.0
+13	107	4.0
+12	57	3.0
+12	58	3.0
+12	22	3.0
+12	24	3.0
+12	28	3.0
+12	108	3.0
+12	115	3.0
+12	120	3.0
+12	122	3.0
+12	48	3.0
+12	21	3.0
+12	107	3.0
+10	22	1.0
+9	22	3.0
+8	37	1.0
+8	56	1.0
+8	61	3.0
+8	67	1.0
+8	12	3.0
+8	77	1.0
+8	80	1.0
+8	17	3.0
+8	102	3.0
+8	33	3.0
+8	123	3.0
+8	39	3.0
+8	40	1.0
+8	44	3.0
+8	50	3.0
+8	62	3.0
+8	23	3.0
+8	120	3.0
+8	63	3.0
+8	64	3.0
+8	27	3.0
+8	51	3.0
+8	101	3.0
+8	106	3.0
+1	35	3.0
+1	31	3.0
+1	58	4.0
+1	111	3.0
+1	108	3.0
+1	21	3.0
+1	60	3.0
+1	24	4.0
+1	57	3.0
+1	12	4.0
+1	22	4.0
+1	118	4.0
+1	120	4.0
+1	14	4.0
+1	107	4.0
+15	33	5.0
+15	107	5.0
+15	118	4.0
+15	101	4.0
+15	66	5.0
+15	102	5.0
+15	28	5.0
+15	119	5.0
+15	22	5.0
+15	62	5.0
+15	78	4.0
+15	64	5.0
+15	103	4.0
+15	120	5.0
+15	58	4.0
+15	24	3.0
+16	33	4.0
+17	36	3.0
+17	8	3.0
+17	66	3.0
+17	53	3.0
+17	72	3.0
+17	42	1.0
+17	20	3.0
+17	28	3.0
+17	87	1.0
+17	97	3.0
+17	64	3.0
+17	69	3.0
+17	46	1.0
+17	112	3.0
+17	17	3.0
+17	12	3.0
+17	90	3.0
+17	101	3.0
+17	85	3.0
+17	83	3.0
+17	84	1.0
+17	106	3.0
+17	47	3.0
+17	65	3.0
+17	24	3.0
+17	102	3.0
+17	50	3.0
+17	116	1.0
+17	81	3.0
+17	120	3.0
+17	39	3.0
+17	82	3.0
+17	57	3.0
+17	44	3.0
+17	49	3.0
+17	22	3.0
+17	74	1.0
+17	58	3.0
+17	122	3.0
+22	121	4.0
+22	118	4.0
+22	33	4.0
+22	28	4.0
+22	122	4.0
+22	58	4.0
+24	99	3.0
+24	22	3.0
+24	120	3.0
+24	21	3.0
+24	64	4.0
+24	117	3.0
+24	110	3.0
+24	75	1.0
+24	59	1.0
+24	73	3.0
+24	107	3.0
+24	24	3.0
+24	68	3.0
+24	55	1.0
+24	25	3.0
+24	7	3.0
+24	12	3.0
+24	72	3.0
+24	69	3.0
+24	58	3.0
+24	124	3.0
+27	114	3.0
+27	107	4.0
+27	20	3.0
+27	61	3.0
+27	24	3.0
+27	62	1.0
+27	56	1.0
+27	96	3.0
+27	66	3.0
+27	39	3.0
+27	5	3.0
+27	94	3.0
+27	70	3.0
+27	117	3.0
+27	47	1.0
+27	106	3.0
+27	110	3.0
+27	12	3.0
+27	101	1.0
+27	50	3.0
+27	63	3.0
+27	40	1.0
+27	53	1.0
+27	23	1.0
+27	86	3.0
+27	17	3.0
+27	22	3.0
+27	8	3.0
+27	80	1.0
+27	58	3.0
+27	6	3.0
+27	92	3.0
+27	51	3.0
+27	71	3.0
+27	120	3.0
+27	38	3.0
+32	53	3.0
+35	66	4.0
+35	33	4.0
+28	57	4.0
+28	79	5.0
+28	44	5.0
