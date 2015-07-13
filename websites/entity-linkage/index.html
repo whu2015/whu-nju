@@ -71,7 +71,7 @@
 		  <br/><br/>
 		  <div class="bodytext">
 			<img src="./data/overview.png" align="right" height="130" alt="expfigure" hspace="10" vspace="5"/>
-			We propose a bootstrapping approach accepting an entity <i>u</i> as input, and its methodological steps are as follows:
+			We propose a bootstrapping approach, which accepts an entity <i>u</i> as input. We describe the methodological steps for our approach below:
 			<ol> 
 			  <li><i>Build a kernel</i>. We automatically infer a set of semantically coreferent entities for <i>u</i>, referred to as the kernel of <i>u</i>, by using owl:sameAs, (inverse) functional properties and skos:exactMatch. These vocabulary elements are often used for equivalence reasoning, and combining them usually initializes an accurate training set (the inferred entities in the kernel are assumed to be correct). However, noisy data can cause error accumulation in the bootstrapping process.</li>
 
