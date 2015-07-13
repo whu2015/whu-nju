@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="Wei Hu"/>
+  <meta name="author" content="Cunxin Jia"/>
+  <meta name="description" content="A bootstrapping approach to entity linkage on the semantic web"/>
+  <meta name="keywords" content="entity linkage, bootstrapping, discriminative property, linked data, semantic web"/>
+	
+  <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+  <style type="text/css"></style>
+  <title>Bootstrapping Entity Linkage</title>
+</head>
+
+<body>
+  <div id="page" align="center">
+    <div id="toppage" align="center">
+	  <div id="date">
+	  	<div class="smalltext" style="padding:13px;"><strong>July 15, 2015</strong></div>
+	  </div>
+	  
+	  <div id="topbar">
+	    <div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://ws.nju.edu.cn">Websoft Research Group</a> | <a href="mailto:whu@nju.edu.cn">Contact Us</a></div>
+	  </div>
+    </div>
+    
+    <div id="header" align="center">
+	  <div id="logo">
+	    <div align="center" style="height:110px;"><img src="./style/nju.jpg" height="110" alt="njulogo"/></div>
+	  </div>
+	  <div id="pagetitle">
+	    <div id="title" class="titletext" align="right">Bootstrapping Entity Linkage</div>
+	  </div>
+	</div>
+
+	<div id="content" align="center">
+	  <div id="menu" align="right">
+	    <div align="right" style="width:189px; height:8px;"><img src="./style/topshadow.gif" width="189" height="8" alt="topshadow"/></div>
+		<div id="linksmenu" align="center">
+		  <a href="http://ws.nju.edu.cn/objectcoref" title="ObjectCoref">ObjectCoref (online system)</a>
+		  <a href="./data/objectcoref.zip" title="Source Code">ObjectCoref (source code)</a>
+
+		  <a href="http://km.aifb.kit.edu/projects/btc-2011/" title="Billion Triples Challenge">BTC2011 Dataset</a>
+		  		  <a href="http://oaei.ontologymatching.org/2011/instance/" title="NYT Dataset">NYT2011 Dataset in OAEI</a>
+		  <a href="http://oaei.ontologymatching.org/2010/im/" title="PR Dataset">PR2010 Dataset in OAEI</a>
+
+		  <a href="./data/btc2011-entities.txt" title="50 Testing Entity">50 Testing Entities for BTC</a>
+		  <a href="./data/btc2011-golden-standard.zip" title="BTC Golden Standard">Golden Standard for BTC</a>
+		  <a href="./data/btc2011-5000-time.txt" title="5000 Sample Entities">5,000 Samples for Runtime</a>
+		  
+		  <a href="./data/btc2011-objectcoref.zip" title="Raw BTC Links">BTC Links (by ObjectCoref)</a>
+		  <a href="./data/nyt-objectcoref.zip" title="Raw NYT Links">NYT Links (by ObjectCoref)</a>
+		  <a href="./data/pr-objectcoref.zip" title="Raw PR Links">PR Links (by ObjectCoref)</a>
+
+		  <a href="./data/btc2011-fpc2.txt" title="Frequent Property Combination">Freq Prop Comb (partial)</a>
+		  <a href="./data/tech-report.pdf" title="Property collocation in DBpedia ontology: An empirical study">Tech Report (by Gong <i>et al.</i>)</a>
+		</div>
+		<div align="right" style="width:189px; height:8px;"><img src="./style/bottomshadow.gif" width="189" height="8" alt="bottomshadow"/></div>
+	  </div>
+	  
+	  <div id="contenttext">
+	    <div class="bodytext" style="padding:12px;" align="justify">
+		  <strong>Wei Hu, Cunxin Jia. A Bootstrapping Approach to Entity Linkage on the Semantic Web. <i>Journal of Web Semantics, </i>2015</strong>
+		  <br/><br/>
+		    In the Big Data era, ever-increasing RDF data have reached a scale in billions of entities and brought challenges to the problem of entity linkage on the Semantic Web. Although millions of entities, typically denoted by URIs, have been explicitly linked with owl:sameAs, potentially coreferent ones are still numerous. Existing automatic approaches address this problem mainly from two perspectives: one is via equivalence reasoning, which infers semantically coreferent entities but probably misses many potentials; the other is by similarity computation between property-values of entities, which is not always accurate and do not scale well. In this paper, we introduce a bootstrapping approach by leveraging these two kinds of methods for entity linkage. Given an entity, our approach firstly infers a set of semantically coreferent entities. Then, it iteratively expands this entity set using discriminative property-value pairs. The discriminability is learned with a statistical measure, which does not only identify important property-values in the entity set, but also takes matched properties into account. Frequent property combinations are  also mined to improve linkage accuracy. We develop an online entity linkage search engine, and show its superior precision and recall by comparing with representative approaches on a large-scale and two benchmark datasets.
+		</div>
+
+		<div class="panel" align="justify">
+		  <span class="orangetitle">Methodologies</span>
+		  <br/><br/>
+		  <div class="bodytext">
+			<img src="./data/overview.png" align="right" height="130" alt="expfigure" hspace="10" vspace="5"/>
+			We propose a bootstrapping approach accepting an entity <i>u</i> as input, and its methodological steps are as follows:
+			<ol> 
+			  <li><i>Build a kernel</i>. We automatically infer a set of semantically coreferent entities for <i>u</i>, referred to as the kernel of <i>u</i>, by using owl:sameAs, (inverse) functional properties and skos:exactMatch. These vocabulary elements are often used for equivalence reasoning, and combining them usually initializes an accurate training set (the inferred entities in the kernel are assumed to be correct). However, noisy data can cause error accumulation in the bootstrapping process.</li><br/>
+
+			  <li><i>Learn discriminative property-value pairs</i>. This is an iterative step. In accordance with previous studies, we make the assumption that coreferent entities share some similar property-value pairs, and a few property-value pairs are more important for linking entities. Given a set of (initially) coreferent entities w.r.t. <i>u</i>, we also approximate a set of non-coreferent entities online in terms of the coreferent ones. The coreferent and non-coreferent entities together constitute the training set of <i>u</i>. In each iteration, we firstly choose a pair of matched properties holding the highest discriminability (measured with information gain). Then, we assign the most distinguishing value to each property in this pair. Note that property matching is involved in the iteration. For the entities in the training set, we extract their property-value pairs and compare them with a string matching algorithm I-Sub. If the similarity between two values is larger than a threshold, the related two properties are matchable. The property-value comparison has the highest computational cost in the bootstrapping process. The learned property-value pairs reflect important characteristics for their denoted resource, and would be used to query new coreferent entities holding the same property-value pairs.</li><br/> 
+
+			  <li><i>Exploit frequent property combinations</i>. Some properties are more natural to be used together to characterize an entity, e.g., longitude and latitude for a coordinate. If we only picked up one of them to link entities, e.g., longitude, the result would not be accurate. To this end, we employ association rule mining to find frequent property combinations and refine them using heuristic rules beforehand. In each learning iteration, when a property is chosen and it belongs to some frequent property combination, its counterpart in the combination (e.g., latitude) with the most distinguishing value are complemented. As a result, the properties in the combination with their associated values would be used together to obtain new links.</li>
+		    </ol>
+		    After the three processing steps, the approach links a set of coreferent entities that refer to the same resource as <i>u</i> does.
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div id="footer" class="smallgraytext" align="center">
+	  (c) 2015 by Websoft Research Group, Nanjing University, PR China. All rights reserved.
+	</div>
+  </div>
+</body>
+</html>
