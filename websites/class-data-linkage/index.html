@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="DC.creator" content="Wei Hu"/>
+  <meta name="DC.creator" content="Rui Yang"/>
+  <meta name="DC.creator" content="Yuzhong Qu"/>
+  <meta name="DC.title" content="Automatically generating data linkages using class-based discriminative properties"/>
+  <meta name="DC.subject" content="data linkage; instance matching; object coreference resolution; semantic web; discriminability; ontologies"/>
+	
+  <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+  <style type="text/css"></style>
+  <title>Class-Based Data Linkage</title>
+</head>
+
+<body>
+  <div id="page" align="center">
+    <div id="toppage" align="center">
+	  <div id="date">
+	  	<div class="smalltext" style="padding:13px;"><strong>Mar. 1, 2014</strong></div>
+	  </div>
+	  
+	  <div id="topbar">
+	    <div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://ws.nju.edu.cn">Websoft Research Group</a> | <a href="mailto:whu@nju.edu.cn">Contact Us</a></div>
+	  </div>
+    </div>
+    
+    <div id="header" align="center">
+	  <div id="logo">
+	    <div align="center" style="height:110px;"><img src="./style/nju.jpg" height="110" alt="njulogo"/></div>
+	  </div>
+	  <div id="pagetitle">
+	    <div id="title" class="titletext" align="right">Class-Based Data Linkage</div>
+	  </div>
+	</div>
+
+	<div id="content" align="center">
+	  <div id="menu" align="right">
+	    <div align="right" style="width:189px; height:8px;"><img src="./style/topshadow.gif" width="189" height="8" alt="topshadow"/></div>
+		<div id="linksmenu" align="center">
+		  <a href="./data/nyt-info-gain.zip" title="NYT Information Gain">NYT Information Gain</a>
+		  <a href="./data/nyt-pr-property.txt" title="NYT Precision Recall (Property)">NYT Prec-Rec (Property)</a>
+		  <a href="./data/nyt-pr-threshold.txt" title="NYT Precision Recall (Threshold)">NYT Prec-Rec (Threshold)</a>
+		  
+		  <a href="./data/pr-info-gain.txt" title="PR Information Gain">PR Information Gain</a>
+		  <a href="./data/pr-pr-property.txt" title="PR Precision Recall (Property)">PR Prec-Rec (Property)</a>
+		  <a href="./data/pr-pr-threshold.txt" title="PR Precision Recall (Threshold)">PR Prec-Rec (Threshold)</a>
+
+		  <a href="./data/btc2011-adl.zip" title="BTC Links (by ADL)">BTC Links (by ADL)</a>
+		  <a href="./data/golden-standard.zip" title="BTC Golden Standard">BTC Golden Standard</a>
+		</div>
+		<div align="right" style="width:189px; height:8px;"><img src="./style/bottomshadow.gif" width="189" height="8" alt="bottomshadow"/></div>
+	  </div>
+	  
+	  <div id="contenttext">
+	    <div class="bodytext" style="padding:12px;" align="justify">
+		  <strong>Wei Hu*, Rui Yang, Yuzhong Qu. Automatically Generating Data Linkages Using Class-Based Discriminative Properties. <i>Data and Knowledge Engineering</i>, 91: 34-51, 2014</strong>
+		  <br/><br/>
+		    A challenge for Linked Data is to link instances from different data sources that denote the same real-world object. Millions of high-quality owl:sameAs linkages have been generated, but potential ones are still considerable. Traditional similarity-based methods to this data linkage problem do not scale well since they exhaustively compare every pair of instances. In this paper, we propose an automatic approach to data linkage generation for Linked Data. Specifically, a highly-accurate training set is automatically generated based on equivalence reasoning and common prefix blocking. The contexts of the instances in the training set, after extracting, are pairwise matched in order to learn discriminative property pairs supporting linkage discovery. For a particular class pair and a pay-level-domain pair, the discriminability of each property pair is measured, and a few property pairs with high discriminability are aggregated in order to be reused in the future to link instances between the same classes and domains. The experimental results show that our approach achieves good accuracy against some complex methods in two OAEI tests and the BTC2011 dataset.
+		</div>
+
+		<div class="panel" align="justify">
+		  <span class="orangetitle">Methodologies</span>
+		  <br/><br/>
+		  <div class="bodytext">
+		  	<img src="./data/process.png" align="right" height="144" alt="expfigure" hspace="10" vspace="5"/>
+			We propose an automatic approach, called ADL, which differs from current similarity-based methods in learning a set of important properties for disambiguating instances (referred to as discriminative properties). The methodological steps of ADL can be divided into the offline part and the online part:<br/>
+			<ul> 
+			  <li>For the <i>offline learning</i>, a highly-accurate training set is automatically established. The training set consists of two sets of instance pairs holding the linkages or not, referred to as positive examples and negative examples, resp. The contexts (i.e., a kind of integrated units over RDF triples) for the instances in the training set are extracted in terms of RDF sentences, and pairwise matched with a lightweight linguistic matcher V-Doc, in order to discover discriminative property pairs, where a discriminative property pair consists of two matchable properties discriminative to link instances. For a specific class pair and a pay-level-domain pair, the discriminability of each property pair is measured by information gain, revealing the global and implicit preference of data publishers on characterizing a type of objects.</li>
+
+			  <li>For the <i>online linking</i>, given a new instance as input, the class that it belongs to and its pay-level-domain are firstly extracted, and then the counterparting classes and pay-level-domains in the training set are chosen. The instances, with the properties in the related discriminative property pairs, are found out, and their values are matched with that of the input using V-Doc. The similarities from different discriminative property pairs are linearly aggregated with equal weighting, in order to determine whether to generate an instance linkage.</li>
+		    </ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div id="footer" class="smallgraytext" align="center">
+	  (c) 2014 by Websoft Research Group, Nanjing University, PR China. All rights reserved.
+	</div>
+  </div>
+</body>
+</html>

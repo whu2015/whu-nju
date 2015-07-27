@@ -1,0 +1,52 @@
+persons1 threshold: 0.99
+	http://www.okkam.org/ontology_person1.owl#soc_sec_id	----	http://www.okkam.org/ontology_person2.owl#soc_sec_id	1.0443358016824342
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#given_name	0.6618675623375223
+	http://www.okkam.org/ontology_person1.owl#phone_numer	----	http://www.okkam.org/ontology_person2.owl#phone_numer	0.5892761329994226
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#surname	0.4709245929878678
+	http://www.okkam.org/ontology_person1.owl#date_of_birth	----	http://www.okkam.org/ontology_person2.owl#date_of_birth	0.36029613331376753
+	http://www.okkam.org/ontology_person1.owl#age	----	http://www.okkam.org/ontology_person2.owl#age	0.11618779075431417
+	http://www.okkam.org/ontology_person1.owl#has_address	----	http://www.okkam.org/ontology_person2.owl#has_address	-0.0
+************************************************
+	http://www.okkam.org/ontology_person1.owl#soc_sec_id	----	http://www.okkam.org/ontology_person2.owl#soc_sec_id	0.15429699501734928
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#given_name	0.13353299549310121
+	http://www.okkam.org/ontology_person1.owl#phone_numer	----	http://www.okkam.org/ontology_person2.owl#phone_numer	0.12861701927090063
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#surname	0.11952570278714919
+	http://www.okkam.org/ontology_person1.owl#date_of_birth	----	http://www.okkam.org/ontology_person2.owl#date_of_birth	0.1093185579147212
+	http://www.okkam.org/ontology_person1.owl#age	----	http://www.okkam.org/ontology_person2.owl#age	0.07547648748231878
+	http://www.okkam.org/ontology_person1.owl#has_address	----	http://www.okkam.org/ontology_person2.owl#has_address	0.0
+================================================
+
+persons2 threshold: 0.99
+	http://www.okkam.org/ontology_person1.owl#age	----	http://www.okkam.org/ontology_person2.owl#age	0.22934144280146587
+	http://www.okkam.org/ontology_person1.owl#soc_sec_id	----	http://www.okkam.org/ontology_person2.owl#soc_sec_id	0.12082654353359532
+	http://www.okkam.org/ontology_person1.owl#phone_numer	----	http://www.okkam.org/ontology_person2.owl#phone_numer	0.1106892531804611
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#given_name	0.05774088485619293
+	http://www.okkam.org/ontology_person1.owl#date_of_birth	----	http://www.okkam.org/ontology_person2.owl#date_of_birth	0.04047478242819361
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#surname	0.021166120050455105
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#given_name	7.308124859290691E-5
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#surname	1.8083392585005743E-5
+	http://www.okkam.org/ontology_person1.owl#has_address	----	http://www.okkam.org/ontology_person2.owl#has_address	-0.0
+************************************************
+	http://www.okkam.org/ontology_person1.owl#soc_sec_id	----	http://www.okkam.org/ontology_person2.owl#soc_sec_id	0.30839058780320333
+	http://www.okkam.org/ontology_person1.owl#phone_numer	----	http://www.okkam.org/ontology_person2.owl#phone_numer	0.2957832423546818
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#given_name	0.21700822234948902
+	http://www.okkam.org/ontology_person1.owl#date_of_birth	----	http://www.okkam.org/ontology_person2.owl#date_of_birth	0.1831678506814267
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#surname	0.1342050390595978
+	http://www.okkam.org/ontology_person1.owl#age	----	http://www.okkam.org/ontology_person2.owl#age	0.11810131486824893
+	http://www.okkam.org/ontology_person1.owl#surname	----	http://www.okkam.org/ontology_person2.owl#given_name	0.008212772949240721
+	http://www.okkam.org/ontology_person1.owl#given_name	----	http://www.okkam.org/ontology_person2.owl#surname	0.004091400670318435
+	http://www.okkam.org/ontology_person1.owl#has_address	----	http://www.okkam.org/ontology_person2.owl#has_address	0.0
+================================================
+
+restaurants threshold: 0.9
+	http://www.okkam.org/ontology_restaurant1.owl#phone_number	----	http://www.okkam.org/ontology_restaurant2.owl#phone_number	0.02215703978685905
+	http://www.okkam.org/ontology_restaurant1.owl#has_address	----	http://www.okkam.org/ontology_restaurant2.owl#has_address	0.021547877895188295
+	http://www.okkam.org/ontology_restaurant1.owl#name	----	http://www.okkam.org/ontology_restaurant2.owl#name	0.01555846359466005
+	http://www.okkam.org/ontology_restaurant1.owl#category	----	http://www.okkam.org/ontology_restaurant2.owl#name	-0.0
+************************************************
+	http://www.okkam.org/ontology_restaurant1.owl#phone_number	----	http://www.okkam.org/ontology_restaurant2.owl#phone_number	0.24799316127279597
+	http://www.okkam.org/ontology_restaurant1.owl#name	----	http://www.okkam.org/ontology_restaurant2.owl#name	0.20398784119522573
+	http://www.okkam.org/ontology_restaurant1.owl#has_address	----	http://www.okkam.org/ontology_restaurant2.owl#has_address	0.012158054654092476
+	http://www.okkam.org/ontology_restaurant1.owl#category	----	http://www.okkam.org/ontology_restaurant2.owl#name	0.0
+================================================
+

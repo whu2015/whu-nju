@@ -1,0 +1,205 @@
+persons1 property: 6 threshold: 0.99
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 5 threshold: 0.99
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 4 threshold: 0.99
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 3 threshold: 0.99
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+precision: 0.998 recall: 0.998
+
+persons1 property: 2 threshold: 0.99
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+precision: 0.976 recall: 0.976
+
+persons1 property: 1 threshold: 0.99
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+precision: 1.0 recall: 0.95
+
+persons2 property: 8 threshold: 0.99
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+
+persons2 property: 7 threshold: 0.99
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+
+persons2 property: 6 threshold: 0.99
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+
+persons2 property: 5 threshold: 0.99
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+
+persons2 property: 4 threshold: 0.99
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+precision: 0.9697732997481109 recall: 0.9625
+
+persons2 property: 3 threshold: 0.99
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+precision: 0.9540816326530612 recall: 0.935
+
+persons2 property: 2 threshold: 0.99
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+precision: 0.9763157894736842 recall: 0.9275
+
+persons2 property: 1 threshold: 0.99
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+precision: 0.996875 recall: 0.7975
+
+restaurants property: 3 threshold: 0.9
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+precision: 0.14760638297872342 recall: 0.9910714285714286
+
+restaurants property: 2 threshold: 0.9
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+precision: 0.9568965517241379 recall: 0.9910714285714286
+
+restaurants property: 1 threshold: 0.9
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+precision: 0.9553571428571429 recall: 0.9553571428571429
+

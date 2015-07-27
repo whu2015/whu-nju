@@ -1,0 +1,95 @@
+persons1 property: 5 threshold: 0.7
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 5 threshold: 0.8
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 5 threshold: 0.9
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons1 property: 5 threshold: 0.99
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+precision: 1.0 recall: 1.0
+
+persons2 property: 5 threshold: 0.7
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+
+persons2 property: 5 threshold: 0.8
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+
+persons2 property: 5 threshold: 0.9
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+precision: 0.9975 recall: 0.9975
+
+persons2 property: 5 threshold: 0.99
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
+precision: 0.9875 recall: 0.9875
