@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="DC.creator" content="Wei Hu"/>
+  <meta name="DC.creator" content="Haoxuan Li"/>
+  <meta name="DC.creator" content="Zequn Sun"/>
+  <meta name="DC.creator" content="Xinqi Qian"/>
+  <meta name="DC.creator" content="Lingkun Xue"/>
+  <meta name="DC.creator" content="Ermei Cao"/>
+  <meta name="DC.creator" content="Yuzhong Qu"/>
+  <meta name="DC.title" content="Clinga: bringing Chinese physical and human geography in linked open data"/>
+  <meta name="DC.subject" content="dataset; ontology"/>
+	
+  <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+  <style type="text/css"></style>
+  <title>Clinga</title>
+</head>
+
+<body>
+  <div id="page" align="center">
+    <div id="toppage" align="center">
+	  <div id="date">
+	  	<div class="smalltext" style="padding:13px;"><strong>July 7, 2016</strong></div>
+	  </div>
+	  
+	  <div id="topbar">
+	    <div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://ws.nju.edu.cn">Websoft Research Group</a> | <a href="mailto:whu@nju.edu.cn">Contact Us</a></div>
+	  </div>
+    </div>
+    
+    <div id="header" align="center">
+	  <div id="logo">
+	    <div align="center" style="height:110px;"><img src="./style/nju.jpg" height="110" alt="njulogo"/></div>
+	  </div>
+	  <div id="pagetitle">
+	    <div id="title" class="titletext" align="right">Chinese LinkedGeoData</div>
+	  </div>
+	</div>
+
+	<div id="content" align="center">
+	  <div id="menu" align="right">
+	    <div align="right" style="width:189px; height:8px;"><img src="./style/topshadow.gif" width="189" height="8" alt="topshadow"/></div>
+		<div id="linksmenu" align="center">
+		  <a href="https://www.dropbox.com/s/4cu45gpmn6jqeje/Clinga_data.tar.gz?dl=0" title="Clinga Dataset">Clinga Dataset</a>
+		  <a href="./clinga_ontology.html" title="Clinga Ontology Document">Clinga Ontology</a>
+		  <a href="./structure_ontology.html" title="Structure Ontology Document">Structure Ontology</a>
+		  <a href="./data/Raw_properties.owl" title="Raw Properties">Raw Properties</a>
+		  <a href="./data/Typing_rules.txt" title="Typing Rules">Typing Rules</a>
+		  <a href="./data/VoID_metadata.rdf" title="VoID Metadata">VoID Metadata</a>
+		</div>
+		<div align="right" style="width:189px; height:8px;"><img src="./style/bottomshadow.gif" width="189" height="8" alt="bottomshadow"/></div>
+	  </div>
+	  
+	  <div id="contenttext">
+	    <div class="bodytext" style="padding:12px;" align="justify">
+		  <strong>Wei Hu*, Haoxuan Li, Zequn Sun, Xinqi Qian, Lingkun Xue, Ermei Cao, Yuzhong Qu. Clinga: Bringing Chinese Physical and Human Geography in Linked Open Data. In: <i>ISWC</i>, 104-112, 2016</strong>
+		  <br/><br/>
+		    While the geographical domain has long been involved as an important part of the Linked Data, the small amount of Chinese linked geographical data impedes the integration and sharing of both Chinese and cross-lingual knowledge. In this paper, we contribute to the development of a new Chinese linked geographical dataset named Clinga, by obtaining data from the largest Chinese wiki encyclopedia. We manually design a new geography ontology to categorize a wide range of physical and human geographical entities, and carry out an automatic discovery of links to existing knowledge bases. The resulted dataset contains over half million Chinese geographical entities and is open access.
+		</div>
+
+		<div class="panel" align="justify">
+		  <span class="orangetitle">Methodologies</span>
+		  <br/><br/>
+		  <div class="bodytext">
+			<img src="./data/baike.jpg" align="right" height="205" alt="expfigure" hspace="10" vspace="5"/>
+			<ol> 
+			  <li>We obtain our data from Baidu Baike, the largest collaboratively-built Chinese wiki encyclopedia. Both structural data and textual description (e.g. in main text) of an article are extracted and translated to RDF using our structure ontology, to achieve the completeness of the article at our best effort.</li>
+
+			  <li>We manually design a physical and human geography ontology to categorize various geographical entities. Following the Chinese naming conventions, we combine the type-based heuristic rules and an SVM classifier to obtain good categorization accuracy.</li>
+
+			  <li>We link Clinga to existing knowledge bases like DBpedia and GeoNames. An automatic discovery of entity links is conducted based on bilingual (Chinese and English) labels and manually-defined ontology mappings.</li>
+		    </ol>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div id="footer" class="smallgraytext" align="center">
+	  (c) 2015 by Websoft Research Group, Nanjing University, PR China. All rights reserved.
+	</div>
+  </div>
+</body>
+</html>
