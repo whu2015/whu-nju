@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="DC.creator" content="Amrapali Zaveri"/>
+  <meta name="DC.creator" content="Wei Hu"/>
+  <meta name="DC.creator" content="Honglei Qiu"/>
+  <meta name="DC.creator" content="Michel Dumontier"/>
+  <meta name="DC.title" content="MetaCrowd: Crowdsourcing biomedical metadata quality assessment"/>
+  <meta name="DC.subject" content="biomedical; metadata; data quality; linked data; crowdsourcing; quality assessment; GEO; gene expression; experimental data"/>
+	
+  <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+  <style type="text/css"></style>
+  <title>GEO Clustering & Crowdsourcing</title>
+</head>
+
+<body>
+  <div id="page" align="center">
+    <div id="toppage" align="center">
+	  <div id="date">
+	  	<div class="smalltext" style="padding:13px;"><strong>May 15, 2017</strong></div>
+	  </div>
+	  
+	  <div id="topbar">
+	    <div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://ws.nju.edu.cn">Websoft Research Group</a> | <a href="http://dumontierlab.stanford.edu">Dumontier Laboratory</a> | <a href="mailto:amrapali@maastrichtuniversity.nl">Contact Us</a></div>
+	  </div>
+    </div>
+    
+    <div id="header" align="center">
+	  <div id="logo">
+	    <div align="center" style="height:110px;"><img src="./style/nju.jpg" height="110" alt="njulogo"/></div>
+	  </div>
+	  <div id="pagetitle">
+	    <div id="title" class="titletext" align="right">GEO Crowdsourcing</div>
+	  </div>
+	</div>
+
+	<div id="content" align="center">
+	  <div id="menu" align="right">
+	    <div align="right" style="width:189px; height:8px;"><img src="./style/topshadow.gif" width="189" height="8" alt="topshadow"/></div>
+		<div id="linksmenu" align="center">
+		  <a href="index.html" title="Home">Home</a>
+		  <a href="clustering.html" title="Clustering">Clustering</a>
+		  <a href="crowdsourcing.html" title="Crowdsourcing">Crowdsourcing</a>
+		</div>
+		<div align="right" style="width:189px; height:8px;"><img src="./style/bottomshadow.gif" width="189" height="8" alt="bottomshadow"/></div>
+	  </div>
+	  
+	  <div id="contenttext">
+	    <div class="bodytext" style="padding:12px;" align="justify">
+		  <strong>Amrapali Zaveri, Wei Hu, Honglei Qiu, Michel Dumontier. MetaCrowd: Crowdsourcing biomedical metadata quality assessment. <i>Under Review</i></strong>
+		  <br/><br/>
+		    In order to reuse the enormous amounts of biomedical data available on the Web, there is an urgent need to understand the metadata associated with each dataset such as the experimental conditions, subjects, target diseases etc. While most biomedical repositories require data submitters to provide a minimal set of metadata, some such as the Gene Expression Omnibus (GEO) allow users to specify additional metadata in the form of textual key: value pairs (e.g. sex: female). However, since there is no structured vocabulary to guide the submitter regarding the metadata terms to use, the 44,000,000+ key: value pairs in GEO suffer from numerous quality issues including redundancy, heterogeneity, inconsistency, and incompleteness. Current methods for quality assessment of such biomedical metadata are not only time consuming but also error prone and are not scalable over the vast amount of metadata that needs curation. Importantly, with a scarcity of domain experts to curate the rapidly increasing data in GEO, there is a need for more efficient methods for curating the metadata, such as crowdsourcing. Thus, in our approach, MetaCrowd, we apply crowdsourcing as a means to assess the quality of the gene expression metadata, in the GEO dataset as our use case. We combine clustering and crowdsourcing methods to identify similar as well as erroneous key: value pairs as the first step towards quality assessment of the biomedical metadata associated with GEO. Ultimately, we aim to use the 'wisdom of the crowds' to not only assess but also fix the metadata quality problems in gene expression as well as other biomedical datasets.
+		</div>
+
+		<div class="panel" align="justify">
+		  <span class="orangetitle">Downloads</span>
+		  <br/><br/>
+		  <div class="bodytext">
+		    We evaluated our methodologies on 1,643 keys belonging to eight key categories: (i) cell line, (ii) disease, (iii) gender, (iv) genotype, (v) strain, (vi) time, (vii) tissue and (viii) treatment. Please see all the data and results below:
+			<ul>
+		      <li><a href="./data/CrowdFlowerRawData.csv" title="Raw Data">CrowdFlower raw data</a></li>
+		      <li><a href="./data/CrowdFlowerResults.json" title="Results">CrowdFlower results</a></li>
+		      <li><a href="./data/CrowdFlowerAggregatedResults.csv" title="Aggregated Results">Aggregated results</a></li>
+		      <li><a href="./data/CrowdFlowerFullResults.csv" title="Full Results">Full results</a></li>
+		      <li><a href="./data/GEOKeysCrowdsourcingResultsEachKey.xlsx" title="Crowdsourcing Results Each Key">Crowdsourcing results (each key)</a></li>
+		    </ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div id="footer" class="smallgraytext" align="center">
+	  (c) 2017 by Websoft Research Group, Nanjing University, PR China. All rights reserved.
+	</div>
+  </div>
+</body>
+</html>
