@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="DC.creator" content="Zequn Sun"/>
+  <meta name="DC.creator" content="Wei Hu"/>
+  <meta name="DC.creator" content="Chengkai Li"/>
+  <meta name="DC.title" content="Cross-lingual entity alignment via joint attribute-preserving embedding"/>
+  <meta name="DC.subject" content="cross-lingual entity alignment; knowledge base embedding; joint attribute-preserving embedding"/>
+	
+  <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+  <style type="text/css"></style>
+  <title>Cross-lingual Entity Alignment</title>
+</head>
+
+<body>
+  <div id="page" align="center">
+    <div id="toppage" align="center">
+	  <div id="date">
+	  	<div class="smalltext" style="padding:13px;"><strong>May 15, 2017</strong></div>
+	  </div>
+	  
+	  <div id="topbar">
+	    <div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://ws.nju.edu.cn">Websoft Research Group</a> | <a href="mailto:whu@nju.edu.cn">Contact Us</a></div>
+	  </div>
+    </div>
+    
+    <div id="header" align="center">
+	  <div id="logo">
+	    <div align="center" style="height:110px;"><img src="./style/nju.jpg" height="110" alt="njulogo"/></div>
+	  </div>
+	  <div id="pagetitle">
+	    <div id="title" class="titletext" align="right">Cross-lingual Entity Alignment</div>
+	  </div>
+	</div>
+
+	<div id="content" align="center">
+	  <div id="menu" align="right">
+	    <div align="right" style="width:189px; height:8px;"><img src="./style/topshadow.gif" width="189" height="8" alt="topshadow"/></div>
+		<div id="linksmenu" align="center">
+		  <a href="https://github.com/nju-websoft/JAPE" title="Code">Source Code</a>
+		  <a href="./data/DBP15k.tar.gz" title="DBP15k">DBP15K Dataset</a>
+		  <a href="./data/DBP100k.tar.gz" title="DBP100k">DBP100K Dataset</a>
+		</div>
+		<div align="right" style="width:189px; height:8px;"><img src="./style/bottomshadow.gif" width="189" height="8" alt="bottomshadow"/></div>
+	  </div>
+	  
+	  <div id="contenttext">
+	    <div class="bodytext" style="padding:12px;" align="justify">
+		  <strong>Zequn Sun, Wei Hu*, Chengkai Li. Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: <i>ISWC</i>, 2017</strong>
+		  <br/><br/>
+          Entity alignment is the task of finding entities in two knowledge bases (KBs) that represent the same real-world object. When facing KBs in different natural languages, conventional cross-lingual entity alignment methods rely on machine translation to eliminate the language barriers. These approaches often suffer from the uneven quality of translations between languages. While recent embedding-based techniques encode entities and relationships in KBs and do not need machine translation for cross-lingual entity alignment, a significant number of attributes remain largely unexplored. In this paper, we propose a joint attribute-preserving embedding model for cross-lingual entity alignment. It jointly embeds the structures of two KBs into a unified vector space and further refines it by leveraging attribute correlations in the KBs. Our experimental results on real-world datasets show that this approach significantly outperforms the state-of-the-art embedding approaches for cross-lingual entity alignment and could be complemented with methods based on machine translation.	
+        </div>
+		<div class="panel" align="justify">
+		  <span class="orangetitle">Joint Attribute-Preserving Embedding</span>
+		  <br/><br/>
+		  <div class="bodytext">
+            We introduce a joint attribute-preserving embedding model for cross-lingual entity alignment. It employs two modules, namely structure embedding (SE) and attribute embedding (AE), to learn embeddings based on two facets of knowledge (relationship triples and attribute triples) in two KBs, respectively. SE focuses on modeling relationship structures of two KBs and leverages existing alignment given beforehand as bridge to overlap their structures. AE captures the correlations of attributes (i.e. whether these attributes are commonly used together to describe an entity) and clusters entities based on attribute correlations. Finally, it combines SE and AE to jointly embed all the entities in the two KBs into a unified vector space. The aim of our approach is to find latent cross-lingual target entities (i.e. truly-aligned entities that we want to discover) for a source entity by searching its nearest neighbors. We expect the embeddings of latent aligned cross-lingual entities to be close to each other.
+            <br/>
+			<img src="./data/framework.png" align="center" height="200" alt="expfigure" hspace="10" vspace="5"/>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div id="footer" class="smallgraytext" align="center">
+	  (c) 2017 by Websoft Research Group, Nanjing University, PR China. All rights reserved.
+	</div>
+  </div>
+</body>
+</html>
